@@ -1,7 +1,22 @@
 body {
     font-family: 'Inconsolata', monospace;
 }
-  
+
+.div-protein-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+.li-protein {
+  list-style-type: none;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  width: 50%;
+}
+
+.tab {
+  margin-left: 10px;
+}
 
 h1 {
      display: block;
@@ -18,14 +33,10 @@ h2 {
 
 ul {
   list-style-type: none  ;
-  font-size: 20px;
-  font-weight: bold;
-  
+  font-size: 20px; 
 }
 
-.li-protein {
-    border-bottom: 3px black dashed
-}
+
 
 .split {
     display: flex;
@@ -35,4 +46,9 @@ ul {
 
 span {
     font-weight:400;
+}
+
+.end-char {
+    position: absolute;
+    right: 50%;
 }
